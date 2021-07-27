@@ -53,3 +53,20 @@ while(it.hasNext()) {
 }
 ```
 
+## List转数组
+
+```java
+//要转换的list集合
+ List<String> testList = new ArrayList<String>(){{add("aa");add("bb");add("cc");}};
+
+ //使用toArray(T[] a)方法
+ String[] array2 = testList.toArray(new String[testList.size()]);
+```
+
+## ArrayList与LinkedList的区别
+
+1. ArrayList是实现了基于动态数组的数据结构，LinkedList基于链表的数据结构。 
+
+2. 对于随机访问get和set，ArrayList觉得优于LinkedList，因为LinkedList要移动指针。 
+
+3. 对于新增和删除操作add和remove，LinedList比较占优势，因为ArrayList要移动数据。 

@@ -23,3 +23,4 @@
 用法：string.split(separator,limit)
 
 解释：split方法把这个string分割成片段来创建一个字符串数组。可选参数limit可以限制被分割的片段数量。separator参数可以是一个字符串或一个正则表达式。
+

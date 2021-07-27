@@ -183,5 +183,9 @@ export default new Vue()
         methods: {
             getData: function () {
                 this.name++
+            }
+        }
+    }
+</script>
 ```
 

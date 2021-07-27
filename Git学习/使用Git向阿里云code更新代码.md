@@ -35,6 +35,7 @@ git status	//查看
 
 git push 远端 分支名称
 git push origin save
+git push origin save -f //强制push
 
 git checkout .	//删除代码库的所有更改（不包含提交到暂存区的变更）
 git clean -f	//删除代码库的所有更改（包含未跟踪的文件）

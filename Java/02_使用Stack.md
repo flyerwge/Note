@@ -14,3 +14,4 @@ Stack<Integer> stack = new Stack<Integer>();
 - 把栈顶的元素“弹出”：`pop(E)`；
 - 取栈顶元素但不弹出：`peek(E)`。
 - 将元素转换为字符串（顺序从栈底开始）：`toString(E)`
+
