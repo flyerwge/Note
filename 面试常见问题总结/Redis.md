@@ -47,7 +47,7 @@ Memcached和Redis
 
 ## 6. Redis常见数据结构及使用场景分析
 
-## String:
+### String:
 
 **介绍**：string数据结构是简单的key-value类型，不光可以保存文本数据还可以保存二进制数据，并且获取字符串长度的复杂度为O(1)，除此之外，Redis的SDS API是安全的，不会造成缓冲区溢出；
 
